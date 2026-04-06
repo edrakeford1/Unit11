@@ -1,3 +1,2 @@
-def city_country(city, country):
-    """Return a string like 'City, Country'."""
-    return f"{city.title()}, {country.title()}"
+def city_country(city, country, population):
+    return f"{city.title()}, {country.title()} - population {population}"
